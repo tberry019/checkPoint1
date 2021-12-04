@@ -1,0 +1,65 @@
+:root{
+  --primary: rgb(101, 196, 117);
+  --secondary: 
+  
+}
+
+.hero-card{
+  
+  border: 1px solid rgba(43, 34, 34, 0.507);
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40vh;
+  width: 30vh;
+  
+}
+
+.middle-card{
+  border: 1px solid rgba(43, 34, 34, 0.507);
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 25vh;
+  width: 50vh;
+  bottom: -4em;
+  position: relative;
+  margin-left: 8em;
+}
+  
+
+
+
+
+
+.hero-img{
+  background-image: url(https://assets.unenvironment.org/styles/article_billboard_image/s3/2020-05/nature-3294681_1920%20%281%29.jpg?VersionId=null&amp;h=ebad6883&amp;itok=iV1MUd_a);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  
+  
+
+
+  
+}
+
+.mainColor{ 
+   background-color: var(--primary)
+
+
+}
+
+.row{
+  min-height: 20vh
+  
+}
+
+.card-border{
+  border-block-color: black;
+  border-style: solid
+}
+
+.card-double-border{
+  margin-bottom: 1em;
+  margin-left: 6em;
+  
+}
