@@ -10,6 +10,10 @@
   <!-- Bootstrap CSS v5.0.2 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/d97b8a6f08.js" crossorigin="anonymous"></script>
+
+
+
 
   <link rel="stylesheet" href="style.css">
 
@@ -41,9 +45,9 @@
       <div class="col-12 p-0">
         <nav class="navbar navbar-light">
           <div class="container-fluid mainColor">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="">
               <img src="https://www.service4money.com/pics/2020/09/21/i-will-random-company-logo-l-133653.jpg"
-                alt="randomLogo" width="30" height="25" class="d-inline-block align-text-top">
+                alt="randomLogo" width="50" height="40" class="d-inline-block align-text-top">
               Taylor's Stupid Website
             </a>
           </div>
@@ -55,19 +59,32 @@
   <main>
     <div class="container-fluid">
       <div class="row hero-img">
-        <div class="col-5 d-flex justify-content-center align pt-1 text-light flex-column">
-
-          <p class="p-0 "> Trees are trees </p>
-
+        <div class="col-5 d-flex justify-content-center align pt-1 text-light flex-column text-muted">
+          <p class="p-"> Trees are trees </p>
           <div class="card text-dark bg-primary|secondary|success|danger|warning|info|light|dark|link hero-card shadow">
             <img class="card-img-top" src="holder.js/100px180/" alt="">
             <div class="card-body shadow rounded">
               <h4 class="card-title">Trees are wood</h4>
-              <p class="card-text card-border">Name</p>
-              <p class="card-text card-border">Email</p>
-              <div class="d-flex justify-content-center">
-                <p class="card-text card-border">Phone</p>
-                <p class="card-text card-border">Ext</p>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Name">
+                <label for="floatingPassword">Name</label>
+              </div>
+              <div class="form-floating mt-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Email">
+                <label for="floatingPassword">Email</label>
+              </div>
+              <div class="row g-3 mt-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Phone" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Ext." aria-label="Last name">
+                </div>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 70px"></textarea>
+                  <label for="floatingTextarea2">Message</label>
+                </div>
               </div>
             </div>
           </div>
@@ -78,55 +95,127 @@
             nulla minus rem! Cum ducimus pariatur, fugiat consequatur saepe nulla laboriosam quis impedit, maxime
             accusantium beatae, veritatis asperiores mollitia!</p>
         </div>
-
-
       </div>
     </div>
 
     <div class="container-fluid">
       <div class="row mainColor">
         <div class="col-6 justify-content-center text-light flex-column">
-          <p style="font-size:20px">Wow Great Info!!.</p>
-          <p style="font-size:20px">Wow Great Info!!.</p>
+          <p style="font-size:20px">Crazy STAT Bro!!.</p>
+          <p style="font-size:20px">Holy Moly TREE INFO!!.</p>
           <p style="font-size:10px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum deleniti sunt
             nulla minus rem! Cum ducimus pariatur, fugiat consequatur saepe nulla laboriosam quis impedit, maxime
             accusantium beatae!</p>
         </div>
         <div class="col-6">
-          <div class="card text-dark bg-light middle-card">
-            <div class="card-body d-flex shadow rounded justify-content-center">
-              <i class="fa"></i>
-              <i class="mdi mdi-bug"></i>
-              <i class="mdi mdi-bug"></i>
+          <div class="card text-dark bg-light middle-card shadow ">
+            <div class="card-body d-flex rounded justify-content-center flex-column middle-card-text">
+              <p><i class="col-1 fas fa-dog text-success"></i>Lorem ipsum dolor sit amet consectetur.</p>
+              <p><i class="col-1 fas fa-spider text-success"></i>Lorem ipsum dolor sit amet consectetur.</p>
+              <p><i class="col-1 fas fa-dragon text-success"></i>Lorem ipsum dolor sit amet consectetur.</p>
+              <p><i class="col-1 fas fa-fish text-success"></i>Lorem ipsum dolor sit amet consectetur.</p>
+              <p><i class="col-1 fas fa-frog text-success"></i>Lorem ipsum dolor sit amet consectetur.</p>
+
+
+
+
             </div>
           </div>
         </div>
-        <!-- text / 5 icons -->
-      </div>
-    </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-5"></div>
-        <div class="col-7"></div>
-        <!-- image / large lorem text -->
-
       </div>
     </div>
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4"></div>
-        <div class="col-4"></div>
+        <div class="col-5 placeholder-image"></div>
+        <div class="col-7 justify-content-center text-dark flex-column">
+
+          <h1 style="font-size:20px"> <i class="fas fa-mountain"></i>This tree is stupid AF!!.</h1>
+          <h1 style="font-size:20px">This paragraph is stupid AF!!.</h1>
+          <p style="font-size:20px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odit earum,
+            perspiciatis iusto at cum, fuga molestiae dolor rerum assumenda fugit distinctio velit illo tempore
+            architecto, blanditiis recusandae alias praesentium!.</p>
+          <div class="buttons">
+            <button class="blob-btn">
+              More Info
+            </button>
+
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                    result="goo"></feColorMatrix>
+                  <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <!-- lorem text -->
+
+    <div class="container-fluid p-0">
+      <div class="row align-items-center secondaryColor">
+        <div class="col-4 justify-content-center rounded shadow text-center">
+          <div class="card">
+            <div class="card-body">
+              <b>"</b>This Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, dignissimos beatae. Sunt
+              eius,
+              maiores minima pariatur culpa aspernatur ut, deserunt modi quos enim est aut possimus non, magnam
+              voluptatem recusandae.
+              <div class="card-body text-success">
+                <p>Trees!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 shadow rounded text-center align-items-center">
+          <div class="card">
+            <div class="row align-items-center fs-2">
+              <i class="col-4 fas fa-tree"></i>
+              <i class="col-4 fas fa-tree"></i>
+              <i class="col-4 fas fa-tree"></i>
+            </div>
+            <div class="card-body">
+              <b>"</b>Ipsum dolor sit amet, consectetur adipisicing elit. Id quod corrupti inventore nobis.
+              Consequuntur,
+              doloremque. Perspiciatis corrupti ipsum inventore quae velit id repudiandae laborum iste odio enim
+              temporibus, nemo reiciendis.
+              <div class="card-body text-success">
+                <p>Crazy!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 shadow rounded text-center">
+          <div class="card">
+            <div class="card-body">
+              <b>"</b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente deserunt similique
+              pariatur
+              eveniet. Consequatur repellat molestias eius modi! Repellendus cum quae architecto consequuntur ipsa
+              provident nulla commodi.
+              <div class="card-body text-success">
+                <p>Amazing!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-0">
+      <div class="row mainColor">
+        <div class="col-12 d-flex justify-content-center text-light flex-column">
+          <h1 style="font-size:40px">I DO NOT KNOW WHAT TO SAY</h1>
+          <h6 style="font-size:20px">ipsum dolor sit amet consectetur adipisicing elit. Alias odio similique earum
+            veniam beatae
+            necessitatibus qui eum voluptas, culpa ipsum ad voluptate? Officia, provident corrupti deserunt cupiditate
+            temporibus iusto rem. </h6>
         </div>
       </div>
     </div>
@@ -137,13 +226,12 @@
 
   </main>
 
-  <footer class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        FOOTER
+  <footer class="container-fluid ">
+    <div class="row secondaryColor">
+      <div class=" fs-2 col-12 d-flex text-dark flex-column align justify-content-center flex-column text-center">
+        <p>This is the end of this great website, wow!</p>
       </div>
     </div>
-    <!-- not sure how to set this up yet -->
   </footer>
 
   <!-- Bootstrap JavaScript Libraries -->

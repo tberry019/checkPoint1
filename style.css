@@ -1,6 +1,6 @@
 :root{
   --primary: rgb(101, 196, 117);
-  --secondary: 
+  --secondary: rgba(109, 241, 241, 0.623);
   
 }
 
@@ -11,6 +11,7 @@
   border-radius: 5px;
   height: 40vh;
   width: 30vh;
+  margin-left: 2em;
   
 }
 
@@ -24,13 +25,14 @@
   position: relative;
   margin-left: 8em;
 }
+
+.middle-card-text{
+  /* margin-left: 1em; */
+}
   
 .header{
-  height: 5vh;
+  height: 6vh;
 }
-
-
-
 
 .hero-img{
   background-image: url(https://assets.unenvironment.org/styles/article_billboard_image/s3/2020-05/nature-3294681_1920%20%281%29.jpg?VersionId=null&amp;h=ebad6883&amp;itok=iV1MUd_a);
@@ -38,16 +40,15 @@
   background-size: cover;
   background-position: center;
   
-  
-
-
-  
 }
 
 .mainColor{ 
    background-color: var(--primary)
 
+}
 
+.secondaryColor{
+  background-color: var(--secondary);
 }
 
 .row{
@@ -65,3 +66,26 @@
   margin-left: 6em;
   
 }
+
+.placeholder-image{
+  background-image: url(https://cdn.savetheredwoods.org/wp-content/uploads/case_4_of_6large.jpg);
+  height: 30 vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.first-card{
+  border: 1px solid rgba(43, 34, 34, 0.507);
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 5vh;
+  width: 5vh;
+  position: absolute
+ 
+}
+
+.text-success{
+  color: green;
+
+}
+
