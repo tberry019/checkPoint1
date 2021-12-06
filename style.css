@@ -30,15 +30,14 @@
   /* margin-left: 1em; */
 }
   
-.header{
-  height: 6vh;
-}
+
 
 .hero-img{
   background-image: url(https://assets.unenvironment.org/styles/article_billboard_image/s3/2020-05/nature-3294681_1920%20%281%29.jpg?VersionId=null&amp;h=ebad6883&amp;itok=iV1MUd_a);
   height: 50vh;
   background-size: cover;
   background-position: center;
+  
   
 }
 
@@ -89,3 +88,13 @@
 
 }
 
+@media (max-width: 768px){
+  .hero-img{
+    background-image: url('https://assets.unenvironment.org/styles/article_billboard_image/s3/2020-05/nature-3294681_1920%20%281%29.jpg?VersionId=null&amp;h=ebad6883&amp;itok=iV1MUd_a');
+  }
+}
+
+.custom-font{
+  font-family: 'Rock Salt', cursive;
+ 
+}
