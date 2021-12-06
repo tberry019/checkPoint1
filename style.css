@@ -18,23 +18,21 @@
 .middle-card{
   border: 1px solid rgba(43, 34, 34, 0.507);
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: px;
   height: 25vh;
-  width: 50vh;
+  width: 30vw;
   bottom: -4em;
   position: relative;
   margin-left: 8em;
 }
 
-.middle-card-text{
-  /* margin-left: 1em; */
-}
+
   
 
 
 .hero-img{
   background-image: url(https://assets.unenvironment.org/styles/article_billboard_image/s3/2020-05/nature-3294681_1920%20%281%29.jpg?VersionId=null&amp;h=ebad6883&amp;itok=iV1MUd_a);
-  height: 50vh;
+  min-height: 50vh;
   background-size: cover;
   background-position: center;
   
@@ -66,8 +64,8 @@
   
 }
 
-.placeholder-image{
-  background-image: url(https://cdn.savetheredwoods.org/wp-content/uploads/case_4_of_6large.jpg);
+.secondaryPicture{
+
   height: 30 vh;
   background-size: cover;
   background-position: center;
@@ -88,7 +86,7 @@
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 750px){
   .hero-img{
     background-image: url('https://assets.unenvironment.org/styles/article_billboard_image/s3/2020-05/nature-3294681_1920%20%281%29.jpg?VersionId=null&amp;h=ebad6883&amp;itok=iV1MUd_a');
   }
@@ -97,4 +95,11 @@
 .custom-font{
   font-family: 'Rock Salt', cursive;
  
+}
+
+
+@media (max-width: 767px) {                  
+   .hide {
+      display: none;
+   }
 }
